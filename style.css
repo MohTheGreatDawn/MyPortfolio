@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+nav .container{
+    display: flex;
+}
+nav h2{
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    margin-left: auto;
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 2vh;
+    display: flex;
+    align-items: center; 
+}
+nav ul a{
+    color: black;
+    text-decoration: none;
+    padding: 1.5vh;
+    border-radius: 5px;    
+    background-color: white;
+}
+
+nav ul li a:hover{
+    background-color: rgb(219, 216, 216);
+    color: white;
+}
+
+/* Home */
+
+#home {
+    display: flex;
+    height: 90vh;
+}
+#home .container{
+   
+    display: flex;
+    width: 80%;
+    justify-content: center;
+
+}
+#home .container div{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+}
+/* bagian gambar */
+#home .container .image{
+    text-align: center;
+}
+#home .container .image img{
+    border-radius: 10px;
+}
+/* bagian kanan */
+#home .right div{
+    margin: 4vh;
+    font-size: 3vh;
+}
+#home .right .h1satu{
+    font-size: 9vh;
+}
+/* bagian lodo medsos */
+#home .medsos{
+    display: flex;
+    height: 13vh;
+    width: 50%;
+}
+#home .right .medsos a{
+    flex: 1;
+}
+#home .right .medsos a img{
+    transition: .1s;
+    width: 60px;
+}
+#home .right .medsos a img:hover{
+    transition: .1s;
+    width: 70px;
+}
+
+
+/* bagian about */
+#about{
+    display: flex;
+    height: 90vh;
+}
+
+#about .container{
+   
+
+}
+#about .top{
+  
+  text-align: center;
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+}
+
+#about .bottom{
+    
+    height: 80%;
+    display: flex;
+}
+
+#about .bottom div{
+    
+    flex: 1;
+    text-align: center;
+}
+
+#about .bottom p {
+    margin: 0 auto;
+    color: rgb(89, 88, 88);
+    width: 80%;
+    font-size: 2.5vh;
+}
+#about .bottom .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+}
+#about .bottom button{
+    color: whitesmoke;
+    transition: .1s;
+    height: 40%;
+    width: 40%;
+    background-color: rgb(99, 31, 31);
+    font-size: 5vh;
+    border-radius: 15px;
+}
+#about .bottom button:hover{
+    transition: .1s;
+    font-size: 5.5vh;
+    height: 45%;
+    width: 45%;
+}
+#about .bottom img{
+    border-radius: 50%;
+}
+
+/* bagian contact */
+#contact{
+    height: 90vh;
+    display: flex;
+}
+#contact .container{
+    text-align: center;
+}
+#contact .container .content{
+    height: 95%;
+  
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact .container .content .con{
+ 
+    height: 50vh;
+}
+#contact .container .content .con div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+#contact .container .content .con div h1{
+    font-size: 5vh;
+}
+
